@@ -11,7 +11,7 @@ public class AzureAppTestApplication {
 	
 	@GetMapping(value ="/message")
 	public String getStarupMessage() {
-		return "webapp deployed Successfully on Azure";
+		return "test webapp deployed Successfully on Azure";
 	}
 
 	public static void main(String[] args) {
