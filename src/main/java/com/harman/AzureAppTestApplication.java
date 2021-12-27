@@ -16,8 +16,8 @@ public class AzureAppTestApplication {
 	
 	
 	
-	private static final String connectionString = "Endpoint=sb://aanamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=sjjnI8IM10yujqiIlwp+2YFRpZvVkUfBgPGZX3t9BzA=";		
-	private static final String eventHubName = "aaeventhub";
+	private static final String connectionString = "Endpoint=sb://bbnamespace.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=4Bd70m4anqOvTwh7J1w2juT73RRGGbbOp2cMHneBIhU=";		
+	private static final String eventHubName = "bbeventhub";
 	
 	public static void main(String[] args) {
 		SpringApplication.run(AzureAppTestApplication.class, args);
