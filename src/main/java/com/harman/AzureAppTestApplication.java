@@ -43,7 +43,7 @@ public class AzureAppTestApplication {
             .buildProducerClient();
 
         // sample events in an array
-        List<EventData> allEvents = Arrays.asList(new EventData({"phNo":"90234","city":"pune"}), new EventData({"phNo":"90234567","city":"gurgaon"}));
+        List<EventData> allEvents = Arrays.asList(new EventData({\"phno\":\"12345\",\"city\":\"pune\",\"age\":27}), new EventData({\"phno\":\"12345678\",\"city\":\"pune11\",\"age\":27}));
 	//List<EventData> allEvents = Arrays.asList(new EventData("test1111"), new EventData("message111"));
 
         // create a batch
